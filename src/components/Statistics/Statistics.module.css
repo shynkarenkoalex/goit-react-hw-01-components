@@ -1,0 +1,29 @@
+.statistics {
+    text-align: center;
+}
+
+ul.statList {
+    display: flex;
+    justify-content: center;
+}
+
+.item {
+    list-style-type: none;    
+    background-color: #670974;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 7em;
+    width: 7em;
+    outline: 1px solid #8b8b8b;
+}
+
+.label, .percentage {
+    color: rgb(255, 255, 255);
+}
+
+span.percentage {
+    font-weight: bold;
+    font-size: 150%;
+}

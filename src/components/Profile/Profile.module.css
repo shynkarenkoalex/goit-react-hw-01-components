@@ -1,0 +1,42 @@
+.profile {
+    text-align: center;
+}
+
+.avatar {
+    border-radius: 200px;
+}
+
+.name {
+    font-weight: bold;
+    font-size: 150%;
+}
+
+.tag, .location {
+    color: darkgrey;
+}
+
+ul.stats {
+    display: flex;
+    justify-content: center;
+}
+
+.stats li {
+    list-style-type: none;    
+    background-color: #e7ebea;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 7em;
+    width: 7em;
+    outline: 1px solid #8b8b8b;
+}
+
+span.label {
+    color: rgb(117, 117, 117);
+}
+
+span.quantity {
+    font-weight: bold;
+    font-size: 130%;
+}
